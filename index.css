@@ -29,6 +29,7 @@ p{
     width:80%;
     height: 90%;
     background-color: blue;
+    padding: 10px;
 }
 
 button{
@@ -38,4 +39,10 @@ button{
     background-color: yellow;
     margin-bottom: 5px;
     font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+#message-el{
+    font-style: italic;
 }

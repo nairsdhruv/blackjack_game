@@ -10,9 +10,12 @@
     <div class="container">
         <h1>Blackjack Game</h1>
         <p id="message-el"> Do you want to play a round?</p>
-        <p>Cards: </p>
-        <p>Sum: </p>
-        <button onclick="play()">START GAME</button>
+        <p id="cards-el">Cards: </p>
+        <p id="sum-el">Sum: </p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()"> NEW CARD</button>
+
+        <p id="player-el"></p>
     </div>
     <script src="index.js"></script>
 </body>
